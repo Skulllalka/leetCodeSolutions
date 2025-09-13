@@ -6,10 +6,8 @@ import (
 )
 
 func main() {
-	// value1 := "rat"
-	// value2 := "car"
-	value := []int{0}
-	//fmt.Println(solution.IsAnagram(value1, value2))
+	value1 := "rat"
+	value2 := "car"
 
-	fmt.Println(solution.MoveZeroes(value))
+	fmt.Println(solution.IsAnagram(value1, value2))
 }
